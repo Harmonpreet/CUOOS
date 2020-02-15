@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CUOOS</string>
+    <string name="welcome">WELCOME TO CUOOS</string>
+    <string name="login">Login Here</string>
+    <string name="Register">New User ? </string>
+    <string name="Registertitle">Register Here :</string>
+    <string name="email">Email :</string>
+    <string name="name">Name :</string>
+    <string name="phone">Mobile Number :</string>
+    <string name="pass">Password :</string>
+    <string name="register">Register </string>
+    <string name="Welcome">WELCOME :</string>
+</resources>

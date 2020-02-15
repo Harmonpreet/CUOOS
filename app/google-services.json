@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "504352453751",
+    "firebase_url": "https://cuoos-82caa.firebaseio.com",
+    "project_id": "cuoos-82caa",
+    "storage_bucket": "cuoos-82caa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504352453751:android:abf472b19accc54ad90272",
+        "android_client_info": {
+          "package_name": "com.HPS.cuoos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504352453751-sk2j4s9gq9os3i3vmo435u09iiam478u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HPS.cuoos",
+            "certificate_hash": "b5ff5ead467220212abfff68123a5eab490a46d6"
+          }
+        },
+        {
+          "client_id": "504352453751-mebrt4u62otqk9fbvbtk44curn5n70cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcqRyEJRifARTb6Q8WTSYiGnU4H5HaeFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504352453751-mebrt4u62otqk9fbvbtk44curn5n70cu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

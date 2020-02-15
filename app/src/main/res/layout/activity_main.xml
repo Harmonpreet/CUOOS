@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundforactivity"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="cursive"
+        android:text="Hello there !,\nWelcome to CUOOS"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="657dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/backgroundforactivity"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/to_login_and_register"
+            android:onClick="openloginscreen"
+            android:padding="20dp"
+            android:text="@string/login"
+            android:textColor="#ff661a"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/to_login_and_register"
+            android:onClick="openregisterscreen"
+            android:padding="20dp"
+            android:text="@string/Register"
+            android:textColor="#ff661a"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
